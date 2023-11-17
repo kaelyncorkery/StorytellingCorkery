@@ -1,0 +1,315 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 2rem;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .60rem;
+    padding-bottom: 60px;
+}
+
+a {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+p, ul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    opacity: .5; 
+}
+
+a:link {
+    text-decoration: none;
+    color: #653D50;
+}
+
+#galleryhov, #abouthov, #careerhov, #indexhov, #stylehov, a {
+    font-size: 30px;
+    transition: all 500ms;
+    display: inline-block;
+  }
+
+#galleryhov, #abouthov, #careerhov, #indexhov, #stylehov, a:hover {
+    font-size: 40px;
+    font-size-adjust: 20px;
+}
+
+.EMPTY {
+    padding: 200px;
+}
+
+/*HOME*/
+
+.homegrid {
+    display: grid;
+    grid-template-columns: repeat(20);
+    grid-template-rows: repeat(20);
+    grid-gap: 10px;
+}
+
+.containertime {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.righttime {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+}
+
+.maintime {
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+}
+
+.oldtime {
+    grid-column-start: 15;
+    grid-column-end: 20;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+}
+
+.camila {
+    color: #ff99cc;
+}
+
+.camilablurb {
+    padding: 30px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/*HOME*/
+
+
+
+
+/* CAREER */
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+}
+
+.career {
+    color: #ff3333;
+}
+
+.awardstitle {
+    letter-spacing: .5rem;
+    color: #ff3333;
+}
+
+.exhibitionstitle {
+    letter-spacing: .7rem;
+    color: #ff3333;
+    opacity: .75;
+}
+
+.publicationstitle {
+    letter-spacing: 1rem;
+    color: #ff3333;
+    opacity: .5;
+}
+
+/* CAREER */
+
+
+
+
+/* ABOUT */
+
+.aboutgrid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-gap: 10px;
+}
+
+.about {
+    color: #cf7e08;
+}
+
+.aboutinfo {
+    position: relative;
+    grid-column-start: 10;
+    grid-column-end: 20;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    padding: 35px;
+}
+
+
+.pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.coletiva {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+/* ABOUT */
+
+
+
+
+/* STYLE */
+
+.stylegrid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-gap: 10px;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.style {
+    color: #1d5e4e;
+}
+
+.styleblurb {
+    color: #09201A;
+    grid-column-start: 3;
+    grid-column-end: 19;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.trad {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    left: 25px;
+    border: #1d5e4e;
+}
+
+.riot {
+    grid-column-start: 8;
+    grid-column-end: 20;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    top: -100px;
+}
+
+/* STYLE */
+
+
+
+
+/* GALLERY */
+
+.gallery {
+    color: #2c4ef2;
+}
+
+.styleblurb {
+    text-align: center;
+}
+
+.gallerygrid {
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-gap: 10px;
+}
+
+.galleryitem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.nike {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.spotify {
+    grid-column-start: 5;
+    grid-column-end: 21;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+
+.oscars {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 10;
+    grid-row-end: 13;
+}
+
+.navy {
+    grid-column-start: 8;
+    grid-column-end: 21;
+    grid-row-start: 13;
+    grid-row-end: 18;
+}
+
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    right: 25px;
+    padding: 20px;
+    background-color: #dbe1ff;
+    color: #2c4ef2;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s ease;
+    opacity: 0;
+    font-size: 15px;
+    text-align: center;
+    align-content: left;
+    border-radius: 10px
+}
+
+.container:hover .overlay {
+    opacity: 1;
+  /*  translate: 0 -50% ease; */
+    transition-duration: .5s;
+    text-align: center;
+}
+/* GALLERY */
